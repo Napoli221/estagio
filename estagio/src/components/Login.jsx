@@ -3,9 +3,10 @@ import Button from 'react-bootstrap/Button';
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import Computer from '../img/images.jpg'
+import { useNavigate } from "react-router-dom";
 
 function  Login() {
-
+  const navigate = useNavigate();
     return(
         <>
         <div className='tela-login'>
@@ -15,22 +16,22 @@ function  Login() {
             <h1 className='login-novo'>Novo Login</h1>
         </div>
         <div className="background-login">
-            <h1 className='faz-login'>FAÇA LOGIN</h1>
+            <h1 style={{color: "black"}} className='faz-login'>FAÇA O LOGIN</h1>
         </div>
         <div className='teste'>
-        <Button className='botao-entrar' variant="primary" size="lg" active>
+        <Button onClick={() => navigate("/Formularios")} className='botao-entrar' variant="primary" size="lg" active>
         Entrar
       </Button>
       </div>
       <div className='label-login'>
-      <input type="text" placeholder="Login" className="input" />;
+      <input type="text" style={{border: "2px solid black"}} placeholder="Login" className="input" />;
       </div>
       <div className='label-senha'>
-      <input type="text" placeholder="Senha" className="input" />;
+      <input type="text" style={{border: "2px solid black"}}  placeholder="Senha" className="input" />;
       </div>
         <div className='botao'>
         <div className="d-flex gap-2 mb-2">
-        <Button variant="secondary" size="lg">
+        <Button onClick={() => navigate("/Cadastrar")} variant="secondary" size="lg">
           Criar Conta
         </Button>
         </div>

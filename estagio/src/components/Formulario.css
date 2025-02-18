@@ -1,0 +1,138 @@
+.Formulario {
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(248, 243, 243);
+    margin-top: 40px;
+    margin-left: 200px;
+    border: 4px solid black;
+    border-width: 100%;
+}
+
+.nav-bar {
+    background-color: grey;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: -250px;
+}
+
+.voltar {
+    margin-left: 1700px;
+    cursor: pointer;
+}
+
+.mb-3 {
+    width: 800px;
+    border-width: 4px;
+    
+}
+
+.mb-4 {
+    width: 330px;
+    
+}
+
+.mb-5 {
+    width: 400px;
+}
+
+.mb-6 {
+    width: 1400px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.ajuste-inicio {
+    margin-left: 130px;
+}
+
+.ajuste {
+    margin-left: 940px;
+    margin-top: -85px;
+}
+
+.ajuste-rg {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.ajuste-cep {
+    margin-left: 390px;
+    margin-top: -93px;
+}
+
+.ajuste-end {
+    margin-left: 780px;
+    margin-top: -93px;
+}
+
+.ajuste-num {
+    margin-left: 1150px;
+    margin-top: -93px;
+}
+
+.ajuste-bairro {
+    margin-left: 5px;
+}
+
+.ajuste-uf {
+    margin-left: 390px;
+    margin-top: -93px;
+}
+
+.ajuste-cidade {
+    margin-left: 780px;
+    margin-top: -93px;
+}
+
+.ajuste-ref {
+    margin-left: 1150px;
+    margin-top: -93px;
+}
+
+.ajuste-email {
+    margin-left: 5px;
+}
+
+.ajuste-pai {
+    margin-left: 390px;
+    margin-top: -93px;
+}
+
+.ajuste-mae {
+    margin-left: 780px;
+    margin-top: -93px;
+}
+
+.ajuste-sexo {
+    margin-left: 1150px;
+    margin-top: -93px;
+    
+}
+
+.ajuste-civil {
+    margin-left: 5px;
+}
+
+.ajuste-nomec {
+    margin-top: -93px;
+    margin-left: 390px;
+}
+
+.ajuste-filhos {
+    margin-left: 780px;
+    margin-top: -93px;
+}
+
+.ajuste-profissao {
+    margin-left: 1150px;
+    margin-top: -93px;
+}
+
+.botao-form {
+    margin-left: 650px;
+    margin-top: 50px;
+    width: 300px;
+}

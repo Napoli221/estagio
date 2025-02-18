@@ -9,6 +9,7 @@ function  Login() {
     return(
         <>
         <div className='tela-login'>
+        
         <div className='panfleto-login'>
             <h1 className='inicio'>Bem-Vindo!</h1>
             <h1 className='login-novo'>Novo Login</h1>
@@ -16,12 +17,17 @@ function  Login() {
         <div className="background-login">
             <h1 className='faz-login'>FAÇA LOGIN</h1>
         </div>
-        <div className="d-flex gap-2 mb-2">
-        <Button className='teste' variant="primary" size="lg">
-          Large button
-        </Button>
-        </div>
-        </div>
+        <div className='teste'>
+        <Button className='botao-entrar' variant="primary" size="lg" active>
+        Entrar
+      </Button>
+      </div>
+      <div className='label-login'>
+      <input type="text" placeholder="Login" className="input" />;
+      </div>
+      <div className='label-senha'>
+      <input type="text" placeholder="Senha" className="input" />;
+      </div>
         <div className='botao'>
         <div className="d-flex gap-2 mb-2">
         <Button variant="secondary" size="lg">
@@ -36,6 +42,8 @@ function  Login() {
         <img src={Computer} alt="" />
         </div>
         </div>
+        </div>
+
         </>
     )
     

@@ -19,14 +19,14 @@
 }
 
 .inicio {
-    margin-left: 60px;
+    margin-left: 55px;
     font-size: 35px;
-    
+    width: 500px;
 }
 
 .login-novo {
     margin-top: 150px ;
-    margin-left: -180px;
+    margin-left: -520px;
     font-size: 35px;
     
 }
@@ -43,6 +43,10 @@
    
 } 
 
+.botao-logar {
+    width: 130px;
+}
+
 .image {
     margin-left: -80px;
     width: 1px;
@@ -51,7 +55,7 @@
 }
 
 .faz-login {
-    margin-left: 280px;
+    margin-left: 250px;
     margin-top: 80px;
     color: white;
 }

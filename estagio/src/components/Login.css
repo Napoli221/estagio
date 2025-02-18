@@ -1,0 +1,53 @@
+.background-login {
+    background-color: red;
+    width: 800px;
+    height: 600px;
+    margin-top: -600px;
+    margin-left: 750px;
+    display: flex;
+}
+
+.panfleto-login {
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    height: 600px;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+
+.inicio {
+    margin-left: 60px;
+    font-size: 35px;
+}
+
+.login-novo {
+    margin-top: 150px ;
+    margin-left: -180px;
+    font-size: 35px;
+}
+
+.botao {
+    margin-left: 530px;
+    margin-top: -330px;
+}
+
+.icons {
+    margin-top: 40px;
+   margin-left: 30px;
+} 
+
+.image {
+    margin-left: -80px;
+    width: 1px;
+    margin-top: 44px;
+}
+
+.faz-login {
+    margin-left: 280px;
+}
+
+.teste {
+    margin-left: 700px;
+}
+
